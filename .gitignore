@@ -1,0 +1,7 @@
+.venv
+
+# Spinx build artifacts
+.buildinfo
+.buildinfo.bak
+.doctrees
+objects.inv

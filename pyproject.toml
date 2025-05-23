@@ -1,0 +1,63 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "homepage"
+dynamic = ["version"]
+description = ''
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = []
+authors = [
+  { name = "IansGithubAcc" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = [
+  "Sphinx>=8.2.3",
+  "myst-parser>=4.0.1",
+]
+
+[project.urls]
+Documentation = "https://iansgithubacc.github.io"
+Issues = "https://github.com/IansGithubAcc/iansgithubacc.github.io/issues"
+Source = "https://github.com/IansGithubAcc/iansgithubacc.github.io"
+
+[tool.hatch.version]
+path = "src/homepage/__about__.py"
+
+[tool.hatch.envs.types]
+extra-dependencies = [
+  "mypy>=1.0.0",
+]
+[tool.hatch.envs.types.scripts]
+check = "mypy --install-types --non-interactive {args:src/homepage tests}"
+
+[tool.coverage.run]
+source_pkgs = ["homepage", "tests"]
+branch = true
+parallel = true
+omit = [
+  "src/homepage/__about__.py",
+]
+
+[tool.coverage.paths]
+homepage = ["src/homepage", "*/homepage/src/homepage"]
+tests = ["tests", "*/homepage/tests"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]
