@@ -1,7 +1,9 @@
 # homepage documentation
 ## Intro
-This is a little trial where I try to make a webpage written in markdown rendered with
-Sphinx and hosted using github pages.
+Welcome to my github site! The aim of this site it to give a quick overview of the projects I work on in my free time.
+
+> [!INFO]
+> This site is my latest project and still a work in progress. Much content is still missing. 
 
 ```{toctree}
 :maxdepth: 2
