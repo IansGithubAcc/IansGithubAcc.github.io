@@ -1,12 +1,18 @@
-# homepage documentation
-## Intro
-Welcome to my github site! The aim of this site it to give a quick overview of the projects I work on in my free time.
+```{include} ../../README.md
+```
+```{toctree}
+:caption: Packages
+:hidden:
+:maxdepth: 2
 
-> [!INFO]
-> This site is my latest project and still a work in progress. Much content is still missing. 
+packages/homepage
+```
 
+<!-- packages/homepage
 ```{toctree}
 :maxdepth: 2
-:caption: Posts
+:caption: Blog posts
+:hidden
+:includehidden
 
-posts/example_post
+``` -->

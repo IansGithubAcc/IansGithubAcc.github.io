@@ -26,6 +26,7 @@ classifiers = [
 dependencies = [
   "Sphinx>=8.2.3",
   "myst-parser>=4.0.1",
+  "furo>=2024.8.6",
 ]
 
 [project.urls]

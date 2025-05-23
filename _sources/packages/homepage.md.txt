@@ -4,8 +4,7 @@ The website you are currently looking at has been generated via a very small pyt
 - A single module for easy building
 - The builded static website
 
-If you want to use this package yourself to make your own website, then fork this
-package. The package and its dependencies can easily be installed using the following command from the root of your repo.
+If you want to use this package yourself to make your own website, then fork this package from the repo [here](https://github.com/IansGithubAcc/IansGithubAcc.github.io). The package and its dependencies can easily be installed using the following command from the root of your repo.
 ```
 pip install -e .
 ```

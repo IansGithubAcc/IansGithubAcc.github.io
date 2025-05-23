@@ -22,6 +22,6 @@ exclude_patterns = []
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
-
+html_title = 'IansGithubAcc'
 html_theme = 'furo'
 html_static_path = ['_static']
