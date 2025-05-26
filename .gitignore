@@ -5,3 +5,5 @@
 .buildinfo.bak
 .doctrees
 objects.inv
+# MyST build outputs
+_build
