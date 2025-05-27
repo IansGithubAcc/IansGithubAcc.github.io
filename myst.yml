@@ -9,9 +9,8 @@ project:
   github: https://github.com/IansGithubAcc/IansGithubAcc.github.io
   # To autogenerate a Table of Contents, run "myst init --write-toc"
 site:
+  title: IansGithubAcc
   template: book-theme
-  nav:
-    - title: IansGithubAcc
   # options:
   #   favicon: favicon.ico
   #   logo: site_logo.png
