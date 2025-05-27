@@ -20,9 +20,7 @@ classifiers = [
   "Programming Language :: Python :: Implementation :: PyPy",
 ]
 dependencies = [
-  "Sphinx>=8.2.3",
-  "myst-parser>=4.0.1",
-  "furo>=2024.8.6",
+  "mystmd >=1.3.28",
 ]
 
 [project.urls]
@@ -34,8 +32,6 @@ Source = "https://github.com/IansGithubAcc/iansgithubacc.github.io"
 extra-dependencies = [
   "mypy>=1.0.0",
 ]
-[tool.hatch.envs.types.scripts]
-check = "mypy --install-types --non-interactive {args:src/homepage tests}"
 
 [tool.coverage.run]
 source_pkgs = ["homepage", "tests"]

@@ -1,9 +1,5 @@
 .venv
+*.egg-info
 
-# Spinx build artifacts
-.buildinfo
-.buildinfo.bak
-.doctrees
-objects.inv
 # MyST build outputs
 _build
