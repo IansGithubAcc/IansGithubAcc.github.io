@@ -2,9 +2,6 @@
 
 ```{note}
 Even though the game is still in pre-alpha, it’s available and playable [here](https://ianmullens.itch.io/rpg)!
-```{raw} html
-<iframe frameborder="0" src="https://itch.io/embed/3386999" width="552" height="167"><a href="https://ianmullens.itch.io/rpg">rpg by IanMullens</a></iframe>
-```
 ```
 ## 🎮 Introduction
 
