@@ -1,13 +1,40 @@
 # Godot Game
+
 ```{note}
-Even though the game is still in pre-alpha it is available and playable [here](https://ianmullens.itch.io/rpg).
+Even though the game is still in pre-alpha, it’s available and playable [here](https://ianmullens.itch.io/rpg)!
+```{raw} html
+<iframe frameborder="0" src="https://itch.io/embed/3386999" width="552" height="167"><a href="https://ianmullens.itch.io/rpg">rpg by IanMullens</a></iframe>
 ```
-## Intro
-As a little side project, I decided to dabble in game development. For a brief moment I considered using the `pygame` framework. However at the time, little serious developments picked up the platform (I believe this has changed since). And since `Unreal Engine` and `Unity` are closed source, I decided to pick up Godot.
+```
+## 🎮 Introduction
 
-## Concept
-Although the project is completely for fun and a creative outlet, I do enjoy the idea of it being accessible to whomever might want to try it. This was the foremost reason I decided on optimizing the game for mobile and tablet.
+As a little side project, I decided to explore game development. For a brief moment, I considered using `pygame`, but at the time it lacked traction for serious game projects (though I believe that's changed since). Since both Unreal Engine and Unity are closed-source, I chose to use Godot — an open-source engine with a growing community and solid capabilities.
 
-I decided on a couple of elements that, when combined, I hope makes my game unique. These elements are:
-- Top-down Zelda style RPG
+## 💡 Concept
+
+This project is a creative outlet and built primarily for fun, but I want it to be accessible to anyone curious to try it. That’s why I’ve focused on optimizing the game for mobile and tablet devices.
+
+The core design elements I’m experimenting with include:
+- A top-down, Zelda-style action RPG
 - Local multiplayer support
+- Drag-based controls for quick dodging and movement
+- Reusable tile-based level design for efficient world-building
+
+## 🗺️ Project Status
+
+### ✅ Completed
+- Created World framework
+- Added initial NPCs and basic interactions
+- Added core item set
+- Implemented quest log and leveling system
+- Built saving system for discoveries and progression
+
+### 🔧 In Progress
+- Design and implement the first boss fight
+- Create entrances to World 2
+
+### 🧭 Planned Content & Features
+- Additional NPCs with richer dialogue
+- New worlds with unique mechanics and themes
+- More items
+- More quests
