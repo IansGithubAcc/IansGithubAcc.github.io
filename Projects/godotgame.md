@@ -1,6 +1,6 @@
 # Godot Game
 
-```{note}
+```{hint}
 Even though the game is still in pre-alpha, it’s available and playable [here](https://ianmullens.itch.io/rpg)!
 ```
 ## 🎮 Introduction
