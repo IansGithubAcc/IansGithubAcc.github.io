@@ -15,6 +15,7 @@ project:
       - file: 'Projects/homepage.md'
       - file: 'Projects/godotgame.md'
       - file: 'Projects/dash-hub.md'
+      - file: 'Projects/birdies.md'
 
 site:
   logo_text: IansGithubAcc
