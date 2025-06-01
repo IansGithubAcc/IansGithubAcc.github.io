@@ -8,6 +8,14 @@ project:
   # authors: []
   github: https://github.com/IansGithubAcc/IansGithubAcc.github.io
   # To autogenerate a Table of Contents, run "myst init --write-toc"
+  toc:
+    - pattern: '*.md'
+    - title: Projects
+      children:
+      - file: 'Projects/homepage.md'
+      - file: 'Projects/godotgame.md'
+      - file: 'Projects/dash-hub.md'
+
 site:
   logo_text: IansGithubAcc
   template: book-theme
