@@ -1,20 +1,16 @@
 
 # Birdies
-
-```{warning}WIP
-This project description is unfinished.
+```{hint} Tip
+Even though dash-hub is still in alpha phase. There is already a demo live [here](https://birdies.pythonanywhere.com/map)!
 ```
 
 ## Description
 In my free time I like going on hikes. Whenever I go to a new location I often encounter new birds which I do not recognize.
 
-To get a better idea of the birds around me, I made a little dashboard [here](https://birdies.pythonanywhere.com/map). The dashboard displays the recent spots in the area. It also allows you to browse the world so you can find out what kind of birds live in the area you intent on visiting.
+To get a better idea of the birds around me, I made a little dashboard. The dashboard displays the recent spots in the area. It also allows you to browse the world so you can find out what kind of birds live in the area you intent on visiting.
 
-```{seealso} Demo
-:class: dropdown
-:::{iframe}https://birdies.pythonanywhere.com/map
-:width: 100%
-:::
+```{warning} WIP
+This project description is not complete at this moment.
 ```
 
 ## Todo

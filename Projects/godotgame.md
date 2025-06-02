@@ -1,7 +1,9 @@
 # Godot Game
 
-```{hint}
-Even though the game is still in pre-alpha, it’s available and playable [here](https://ianmullens.itch.io/rpg)!
+```{hint} Tip
+Even though the game is still in pre-alpha, it's available and playable for touch screen devices!
+
+{button}`Try out my game <https://ianmullens.itch.io/rpg/>`
 ```
 ## Introduction
 

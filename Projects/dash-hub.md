@@ -1,4 +1,15 @@
 # Dash-hub
+```{hint} Tip
+Even though dash-hub is still in alpha phase. There is already a demo live [here](https://dashhub.pythonanywhere.com/dashhub/)!
+
+:::{attention}
+:class: dropdown
+The above dashboard is hosted on the free platform [pythonanywhere.com](pythonanywhere.com). The free tier on the platform requires renewing every, 3 months. If the demo above does not show anything, it most likely means I need to renew the site.
+
+Furthermore, the current Demo works for static webpages and Dash/Flask applications. However, running a FastAPI backend application such as **receiver** seems to not work on the current host. This is most likely due to the host, since it works fine locally.
+:::
+```
+
 ## Background
 [Dash](https://dash.plotly.com/) is an extension to Plotly's plotting platform for web dashboards. The platform is a popular professional choice, with many companies having various internal dashboards. This project has 2 main goals. 
 
@@ -23,19 +34,6 @@ Locally the following app platforms were successfully hosted:
 ```{note}
 The current framework uses multi-threading and **not** multi-processing. This means that applications will boot relatively quickly (since no new python process requires to start), but no advantage is taken from multiple processors if available. Multi-processing support might be added in the future.
 ```
-
-## Dash-hub Demo
-```{seealso} Demo
-:class: dropdown
-:::{iframe}https://dashhub.pythonanywhere.com/dashhub/
-:width: 100%
-:::
-```
-:::{warning}
-The above dashboard is hosted on the free platform [pythonanywhere.com](pythonanywhere.com). The free tier on the platform requires renewing every, 3 months. If the demo above does not show anything, I will most likely need to renew the site.
-
-Furthermore, the current Demo seems to work for fine for static webpages and Dash/Flask applications. However, running a FastAPI backend application such as **receiver** seems to not work on the current host though.
-:::
 
 ## API callbacks example
 I'm very pleased to share that by installing this package, you can now easily execute callbacks on a external servers.
