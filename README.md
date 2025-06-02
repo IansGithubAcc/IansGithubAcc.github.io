@@ -19,4 +19,4 @@ I've recently been dabbling a little in game development as a creative outlet. C
 `dash-hub` is a package I made after seeing some missing functionality in the opensource community surrounding [Plotly's Dash](https://dash.plotly.com/). The package allows you to host and mange multiple applications on a single server and adds functionality for backend integration.
 
 ## [Birdies](Projects/birdies.md)
-Birdies is a fun little hobby project I picked up to help me identify birds. I use the e-bird API and some fetching to display birds that have been recently spotted around you. Furthermore, it includes functionality for spot return period heatmaps to help you find the best place to spot a specific bird yourself.
+Birdies is a fun little hobby project I picked up to help me identify birds. I use the e-bird API and image fetching to display birds that have been recently spotted around you. Furthermore, it includes functionality for spot return period heatmaps to help you find the best place to spot a specific bird yourself.
