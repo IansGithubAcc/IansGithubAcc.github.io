@@ -1,4 +1,5 @@
 # This package
+Checkout the [Github repo](https://github.com/IansGithubAcc/IansGithubAcc.github.io).
 ## Description
 The page you are currently looking at is part of a very small python package called `homepage`. The package contains no code of its own, only the following elements:
 - The markdown content that makes up the pages

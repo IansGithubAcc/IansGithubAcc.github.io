@@ -1,5 +1,5 @@
-
 # Birdies
+Checkout the [Github repo](https://github.com/IansGithubAcc/birdies).
 ```{hint} Tip
 Even though dash-hub is still in alpha phase. There is already a demo live [here](https://birdies.pythonanywhere.com/map)!
 ```
