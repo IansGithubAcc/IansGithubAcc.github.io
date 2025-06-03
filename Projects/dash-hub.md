@@ -1,5 +1,6 @@
 # Dash-hub
-:::{aside} [Repo](https://github.com/IansGithubAcc/dash-hub)
+:::{aside}
+[Repo](https://github.com/IansGithubAcc/dash-hub)
 :::
 ```{hint} Tip
 Even though dash-hub is still in alpha phase. There is already a demo live [here](https://dashhub.pythonanywhere.com/dashhub/)!
