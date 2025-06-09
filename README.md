@@ -4,7 +4,7 @@ Of all the places on the internet, you seemed to have made your way to either th
 The aim of this project is to give a quick overview of the projects I work on in my free time. Additionally, in the future I may write some blog posts, if I stumble upon anything interesting to share.
 
 ```{note}
-This site is one my latest projects at time of writing and it's still a work in progress. 
+This site is one of my latest projects at time of writing and it's still a work in progress. 
 Much content is still missing for now. 
 ```
 
